@@ -1503,3 +1503,225 @@ Code: Empress
 
 
 3407 Charging thrusters
+
+Aisha
+
+3435 = AVSI_SI3_AV_METEO_CALL
+3869 = AVSI_I2_AV_GUIDE_FIRE_BALL = MagicMissile
+AVSI_SI2_AV_GUIDE_FIRE_BALL_HYPER = MagicMissiel
+AVSI_SI2_AV_GUIDE_FIRE_BALL_HYPER
+AVSI_SI2_AV_GUST_SCREW
+
+Tipos de Arquivos .lua
+
+Abyss_Ran = mob
+
+Airship_Soldier_Gunner = mob
+Airship_Soldier_High
+
+Aisha_PigBat = Monstro
+Aisha_StoneWall = monstro
+
+Alarm_SystemA
+Alarm_SystemB
+
+Arme_VioletMage = Aisha
+AttractRandomItemData = Não entendi
+AttribEnchantItem = Atributos ( fogo , veneno , etc )
+AttribEnchantRequire = Encantamento ( ??? )
+
+BasicPet = Cristal de Vida
+Bobosse = monstro
+Bone_Gargoyle = fumaça
+Book_Table = Guia do jogo
+Broken_Tower = Torre de Altera Plains
+Bunker = Fumaça ( ??? )
+
+CardList = Lista de cartas ( Falta várias )
+CashItemData = Vazio
+CashShopCategory = Vários Cash_Shop_Sub
+Cave_Of_Magmanta_Gate = Portão de Hamel
+CheckSumFileList = Executador do jogo
+Chest = Baú de vila
+Chest_Arcade = Baú de campo
+ChestMonster = Baú em masmorra
+chicken = galinha
+Chung_Iron_Cannon = Chung
+ComboTree = Combos das classes
+-Config = Client versão , IP , Server , etc
+
+-ConradTheOdd = monstro aquático 3.250 HP de Hamel
+-Coral_Serpent = Boss aquático de Hamel
+
+-DamageEffect = Danos dos personagens ou monstros( Ex : Flecha )
+Guidded Arow = Sonic Arrow
+-DamageSound = Sons de danos( Ex : Pedra caíndo )
+
+-DLG_Class_Change_SwordTaker = tem nada
+
+-DLG_Game_Exp_Gage = não entendi
+-DLG_Map_House = NPC's do jogo e seus nomes 
+
+House = {}
+House[HOUSE_ID.HI_ANNE_HOUSE] = {
+  Type = HOUSE_TYPE.HT_EQUIP_SHOP,
+  Name = STR_ID_1001,
+  QuestInfoPosX = 100,
+  QuestInfoPosY = 349,
+  EventQuestInfoPosX = 144,
+  EventQuestInfoPosY = 440,
+  NPCTextureName = "DLG_Common_New_Texture41.tga",
+Textura em Data001 ou Data006
+  NPCTextureKey = "NUI_ANNE_NAME",
+Arquivo com informações dela : UI_Anne
+  NPCTexturePosX = 135,
+  NPCTexturePosY = 640,
+  NPCMeshName = "Motion_NPC_RUBEN_ANNE.x",
+  NPCAniTex = "Motion_NPC_RUBEN_ANNE.XET",
+  NPCMeshPos = {
+    4702.732,
+    164.206,
+    367.613
+  },
+  NPCMeshRot = {
+    0,
+    15,
+    0
+  },
+  NPCMeshScale = {
+    1.3,
+    1.3,
+    1.3
+  },
+  NPCJoinTalk = {
+    "ANNE_HOUSE_Wait_Talk.wav",
+    "ANNE_HOUSE_Wait_Talk2.wav"
+  },
+  NPCByeTalk = {
+    "ANNE_HOUSE_Bye_Talk.wav",
+    "ANNE_HOUSE_Bye_Talk2.wav"
+  },
+  JoinArea = 600,
+  ENCHANT = TRUE,
+  REPAIR_NPC = TRUE,
+  SELL_NPC = TRUE,
+  NPC_ID_LIST = {
+    NPC_UNIT_ID.NUI_ANNE
+  },
+  SHOP_CATEGORY_TYPE_LIST = {
+    BUY_ITEM_CATEGORY.BIC_WEAPON,
+    BUY_ITEM_CATEGORY.BIC_COAT,
+    BUY_ITEM_CATEGORY.BIC_TROUSERS,
+    BUY_ITEM_CATEGORY.BIC_HAND,
+    BUY_ITEM_CATEGORY.BIC_FOOTWEAR,
+    BUY_ITEM_CATEGORY.BIC_SPECIAL,
+    BUY_ITEM_CATEGORY.BIC_ACCESSORY
+  },
+  Wait_Talk = STR_ID_1002,
+  Shop_Talk = STR_ID_1003,
+  Quest_Talk = STR_ID_1004,
+  Bye_Talk = STR_ID_1005
+
+-DLG_UI_Skill_Tree = não entendi
+
+-DLG_Unit_State_Select_Unit = Nada demais
+DLG_Unit_State_SlotList = Tipo de item ( Arma , Elmo , etc )
+DLG_Unit_State_Text = Não entendi
+-DLG_User_Info = Não entendi
+-DropItemManager = Lista de itens que podem dropar
+*DungeonData* = Masmorras do jogo
+arquivo tga = ( level ) linha x coluna
+-HQ_LoadingDungeon_BEGINNER_FOREST1.TGA ( Lv 1-2 )não tem
+-HQ_LoadingDungeon_EL_TREE_WEST1.TGA ( Lv 2-3 ) 1° 1°
+-HQ_LoadingDungeon_EL_TREE1.TGA ( Lv 3-4 ) El Tree 2° 1°
+-HQ_LoadingDungeon_EL_MONKEY1.TGA ( Lv 4-5 ) 4° 1°
+-HQ_LoadingDungeon_EL_TREE_TWILLIGHT1.TGA ( Lv 5-6 ) 5° 1°
+-HQ_LoadingDungeon_EL_TREE_NORTH1.TGA ( Lv 6-7 ) 3° 1°
+-HQ_LoadingDungeon_EL_TREE_HELLMODE1.TGA ( Lv 15-20 ) 6° 1°
+( arquivo Dungeon_El_Forest_Hell_Normal )
+      --NPC_UNIT_ID.NUI_BOX, = Caixa
+      --NPC_UNIT_ID.NUI_MUSHROOM_HORN, = cogumelo
+      --NPC_UNIT_ID.NUI_MUSHROOM_POISON,= cogumelo venenoso
+      --NPC_UNIT_ID.NUI_SMALLGATE_POST, = placa de direção
+      --NPC_UNIT_ID.NUI_SMALLGATE_GREEN, = porta bloqueada
+      --NPC_UNIT_ID.NUI_SPIKEBOARD_HERB, = espinho
+      --NPC_UNIT_ID.NUI_MUSHROOM_KING, = não aparece
+      --NPC_UNIT_ID.NUI_MUSHROOM_KING_BLACK = cogumelo negro gigante
+
+
+-Dungeon_Monster_Test = Pouca coisa
+
+-EffectSet = Efeitos do jogo ( Exemplo Magia , onde começa , como termina , combos , etc )
+-Elsword_SwordMan = Elsword
+-ExpTable = Lista de experiência ( 1 ao 80 )
+
+-Eve_Nasod = Eve
+-GameOption = Opções atuais do jogo
+
+-Item = Lista de itens do jogo
+131955 :
+UserLevel = 50
+
+-ItemExchangeTable = Não entendi
+-Item_Box = Não entendi
+-Item_Grade = Raridade dos itens
+-Lire_ElvenRanger = Rena
+
+-NPCStat = Monstros do jogo
+
+-OptionItemData = Efeitos de Armaduras
+
+-PreTestDropTable = Lista de drop e taxa de drop
+77280 = DropItem_giant_portion ( Ver no Item.lua )
+9,5 = Probabilidade do item dropar de monstro ou caixa
+-PreTestEquip = Itens equipados nos personagens da conta
+-PreTestUnit = Personagens da conta 
+( level , classe , magias , passivas )
+
+-PreTestUser = Client Rank e outras coisas
+
+-Quest = Missão
+-RAVEN_FIGHTER = Raven
+-SkillData = Classes dos personagens
+
+-SpiritTable = Spirit Lv 1 ao 80 , não entendi
+-Square-Elsword_LorKNight = Ações do Lorde
+-StatTable = Tabela de Atributos
+-TitleMision = Missões
+-TitleTable = Lista de Títulos
+-Unit_Class = Classes do jogo ( Swormands, Violet Mage, Elven Ranger, etc )
+-Unit_Type = Personagens do jogo ( Elsword, Aisha, Rena, etc )
+
+-WorldData = Mundos e Masmorras
+
+///////////////////////////////////////////////////////
+
+
+-NPCStat = Monstros do jogo
+
+HP 
+310 = Nui_none
+
+1.850 = Nui_Chaingate_Post_Extra
+2.160 = Nui_Bee / Nui_Beebomb
+2.460 = Nui_Beebombhouse
+2.770 = Nui_Beepoison_Nodrop
+3.080 = Nui_Monkey_B
+3.390 = Nui_Monkey_C
+4.000 = Nui_Ghost_Magician
+5.540 = Nui_Thief_Fat
+6.160 = Nui_Soldier_Fat
+
+12.320 = Nui_Pporu_Giant_Red
+18.020 = Nui_Monkey_Boss
+18.420 = Nui_Pporu_William_Expert
+19.220 = Nui_Bender_Hard
+
+21.560 = Nui_Bat_King
+24.640 = Nui_Benders_Normal
+26.180 = Nui_Pporu_William_Normal
+29.110 = Nui_Ent
+32.340 = Nui_Benders_Upgrade_Normal
+33.960 = Nui_Benders_Nasod
+37.840 = Nui_Benders_Upgrade_Expert
+
